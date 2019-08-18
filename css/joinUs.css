@@ -1,0 +1,159 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+img {
+	display: block;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.header {
+	width: 1000px;
+	margin: 0 auto;
+	height: 78px;
+	overflow: hidden;
+}
+
+.logo {
+	float: left;
+}
+
+.guild {
+	float: right;
+}
+
+.content {
+	width: 100%;
+	height: 850px;
+	background-image: url(../img/05-joinUs/bg.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.footer {
+	width: 100%;
+	height: 50px;
+	background-color: #42415E;
+}
+
+.footext {
+	width: 100%;
+	height: 50px;
+	background-color: #383753;
+	color: #7A6E7D;
+	text-align: center;
+	padding-top: 15px;
+}
+
+.guild ul {
+	overflow: hidden;
+}
+
+.guild li {
+	padding: 0 25px;
+	float: left;
+	height: 78px;
+	font: 16px/78px "微软雅黑";
+	text-align: center;
+	color: #666666;
+}
+
+.guild .checked li {
+	background: #11B272;
+	color: #FFFFFF;
+}
+
+.guild .checked li:hover {
+	color: #FFFFFF;
+}
+
+.guild li:hover {
+	color: #4B97DB;
+}
+
+.box1000 {
+	width: 1000px;
+	height: 850px;
+	margin: 0 auto;
+	position: relative;
+}
+
+a.deliverycv img {
+	position: absolute;
+	top: 25%;
+	left: 63%;
+	animation: deliverycv 2s infinite ease;
+}
+
+@keyframes deliverycv {
+	from {
+		opacity: .1;
+		-webkit-transform: scale(0.9, 0.9);
+	}
+	to {
+		opacity: 1;
+		-webkit-transform: scale(1, 1);
+	}
+}
+
+.icon ul {
+	position: absolute;
+	margin: 0 64px;
+	top: 70%;
+}
+
+.icon ul #qiu4 {
+	margin-right: 0;
+}
+
+.icon ul li {
+	float: left;
+	width: 143px;
+	margin-right: 100px;
+}
+
+.icon li div {
+	width: 130px;
+	margin: 0 auto;
+	height: 30px;
+	text-align: center;
+	font: 14px/30px "微软雅黑";
+	color: #272679;
+	border-radius: 14px;
+	position: relative;
+}
+
+.icon li div span {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	left: 60px;
+	top: -5px;
+	transform: rotate(45deg);
+	z-index: 0;
+}
+
+#img01,
+#img01 span,
+#img04,
+#img04 span {
+	background: #00B7EE;
+}
+
+#img02,
+#img02 span {
+	background: #FFC600;
+}
+
+#img03,
+#img03 span {
+	background: #FE5F4B;
+}

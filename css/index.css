@@ -1,0 +1,303 @@
+img {
+	display: block;
+}
+
+#bigPic {
+	background: #191D3A;
+	height: 567px;
+	overflow: hidden;
+}
+
+#bigPicCheckBoxWrap {
+	width: 1000px;
+	height: 567px;
+	position: relative;
+	top: -567px;
+	margin: 0 auto;
+}
+
+#bigPic img {
+	width: 1920px;
+	margin: 0 auto;
+	height: 567px;
+	overflow: hidden;
+}
+
+#bigPic .hidden {
+	display: none;
+}
+
+#bigPicCheckBox {
+	position: absolute;
+	width: 116px;
+	height: 22px;
+	left: 442px;
+	bottom: 10px;
+}
+
+#bigPicCheckBox ul {
+	overflow: hidden;
+	height: 12px;
+	padding: 5px 0;
+}
+
+#bigPicCheckBox li {
+	width: 12px;
+	height: 12px;
+	background: #6FDEA3;
+	border-radius: 50%;
+	float: left;
+	margin-left: 14px;
+	cursor: pointer;
+}
+
+#bigPicCheckBox .checked {
+	background: #FFFFFF;
+}
+
+#box1000 {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#picBoxWrapBox {
+	width: 1000px;
+	height: 212px;
+	font-size: 0;
+	margin-top: 50px;
+	position: relative;
+	left: 0px;
+	overflow: hidden;
+}
+
+#picBoxWrap {
+	width: 4160px;
+	font-size: 0;
+	position: absolute;
+}
+
+.picBox {
+	display: inline-block;
+	width: 1040px;
+	height: 212px;
+	overflow: hidden;
+}
+
+.picbox:hover {
+	box-shadow: 2px 2px 2px 2px silver;
+	border-radius: 8px;
+	background: #38B772;
+}
+
+.picbox {
+	width: 218px;
+	margin-right: 42px;
+	float: left;
+	margin-bottom: 21px;
+	transition: all 0.2s linear 0s;
+}
+
+.picbox div {
+	text-align: center;
+}
+
+.picbox:hover .picname,
+.picbox:hover .picpy {
+	color: #FFFFFF;
+}
+
+.picbox:hover span {
+	background: url(../img/01-homepage/arrow2.png);
+}
+
+.picname {
+	font-weight: bold;
+	padding: 7px 0 13px;
+	font-size: 13px;
+	transition: color 0.2s linear 0s;
+}
+
+.picpy {
+	padding-bottom: 8px;
+	color: #38B772;
+	font-size: 12px;
+	transition: color 0.2s linear 0s;
+}
+
+.picpy span {
+	display: inline-block;
+	width: 4px;
+	height: 8px;
+	background: url(../img/01-homepage/arrow.png);
+}
+
+#lineBox {
+	overflow: hidden;
+	margin-top: 19px;
+}
+
+.line {
+	width: 442px;
+	height: 1px;
+	background: #DBE1E7;
+	float: left;
+	margin-top: 10px;
+}
+
+#checkBox {
+	width: 116px;
+	height: 22px;
+	float: left;
+}
+
+#checkBox ul {
+	overflow: hidden;
+	height: 12px;
+	padding: 5px 0;
+}
+
+#checkBox li {
+	width: 12px;
+	height: 12px;
+	background: #DBE1E7;
+	border-radius: 50%;
+	float: left;
+	margin-left: 14px;
+	cursor: pointer;
+}
+
+#checkBox .checked {
+	background: #38B772;
+}
+
+#c-box {
+	height: 310px;
+	font-size: 13px;
+	margin-top: 42px;
+	position: relative;
+}
+
+.c-boxl {
+	background: url(../img/01-homepage/news_hd.jpg);
+	width: 500px;
+	padding-top: 120px;
+	height: 190px;
+	float: left;
+	position: relative;
+}
+
+.c-boxl ul {
+	margin-left: 15px;
+	margin-right: 20px;
+}
+
+.c-boxl li {
+	height: 46.5px;
+	line-height: 46.5px;
+	border-bottom: 1px solid #DBE1E7;
+}
+
+.c-boxl li a:hover {
+	color: #38B772;
+}
+
+.c-boxl span {
+	color: #CAC4CF;
+	margin-right: 22px;
+}
+
+.c-boxr {
+	width: 480px;
+	height: 310px;
+	float: left;
+	background: url(../img/01-homepage/jobs_bg.jpg);
+	color: #FFFFFF;
+	padding-left: 20px;
+}
+
+.c-boxr-jobs {
+	height: 113px;
+	position: relative;
+}
+
+.c-boxr-jobsBox {
+	position: absolute;
+	left: 60px;
+	top: 45px;
+}
+
+.c-boxr-jobsBox div {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.c-boxr-jobsBox span {
+	font-size: 11px;
+}
+
+.c-box-more {
+	text-align: center;
+	width: 64px;
+	height: 26px;
+	line-height: 26px;
+	border-radius: 5px;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+.c-boxl-more {
+	border: 1px solid #38B772;
+	color: #38B772;
+	position: absolute;
+	left: 220px;
+	top: 40px;
+}
+
+.c-boxr-more {
+	border: 1px solid #FFFFFF;
+	position: absolute;
+	left: 180px;
+	top: 45px;
+}
+
+.c-boxl-more:hover {
+	background: #38B772;
+	color: #FFFFFF;
+}
+
+.c-boxr-more:hover {
+	background: #FFFFFF;
+	color: #38B772;
+}
+
+.c-boxr p {
+	font-weight: bold;
+}
+
+.c-boxr li {
+	width: 305px;
+	height: 37px;
+	line-height: 37px;
+	border-bottom: 1px solid #6FDEA3;
+}
+
+.c-boxr li a {
+	color: #FFFFFF;
+}
+
+.c-boxr li a:hover {
+	color: #DDD;
+}
+
+.footPic {
+	z-index: -1;
+	position: absolute;
+	left: -340px;
+	width: 1680px;
+	height: 364px;
+	background: url(../img/01-homepage/mountain.jpg);
+}
+
+footer {
+	margin-top: 53px;
+}

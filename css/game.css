@@ -1,0 +1,344 @@
+#box1000 {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.title {
+	margin-bottom: 20px;
+}
+
+.titleName span {
+	background: url(../img/04-aboutUs/location.png) 0 -96px;
+}
+
+.container {
+	width: 1000px;
+	overflow: hidden;
+}
+
+div.titleMenu li:first-child {
+	width: 17px;
+	height: 21px;
+}
+
+.titleMenu a {
+	vertical-align: middle;
+}
+
+.titleMenu span {
+	margin: 0 2px 0;
+	vertical-align: middle;
+}
+
+#iPhone span {
+	background-position: 4px 0px;
+}
+
+#iPhone.checked span,
+#iPhone:hover span {
+	background-position: -121px 0px;
+}
+
+#Android span {
+	background-position: -1px -98px;
+}
+
+#Android.checked span,
+#Android:hover span {
+	background-position: -121px -98px;
+}
+
+#iPad span {
+	background-position: 5px -198px;
+}
+
+#iPad.checked span,
+#iPad:hover span {
+	background-position: -116px -198px;
+}
+
+#PC span {
+	background-position: 3px -397px;
+}
+
+#PC.checked span,
+#PC:hover span {
+	background-position: -117px -397px;
+}
+
+#TV span {
+	background-position: 3px -293px;
+}
+
+#TV.checked span,
+#TV:hover span {
+	background-position: -117px -293px;
+}
+
+.left {
+	width: 230px;
+	height: 600px;
+	float: left;
+}
+
+.left ul {
+	margin: 0px 10px;
+}
+
+.left li {
+	padding: 5px;
+	height: 65px;
+	border-bottom: 1px solid #c7d6e5;
+	color: #444866;
+	font-size: 14px;
+	line-height: 65px;
+	cursor: pointer;
+	position: relative;
+}
+
+.left li span {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background: url(../img/02-game/tadejingling.png) no-repeat;
+	position: relative;
+	top: 15px;
+	margin-right: 15px;
+}
+
+.left li b {
+	display: inline-block;
+	width: 4px;
+	height: 8px;
+	position: absolute;
+	right: 5px;
+	top: 35px;
+}
+
+.checked b {
+	background: url(../img/01-homepage/arrow.png);
+}
+
+.left ul .checked,
+.left li:hover {
+	color: #38b772;
+}
+
+.rightt {
+	display: none;
+}
+
+#checked {
+	display: block;
+}
+
+
+/*right iphone*/
+
+div.right {
+	width: 770px;
+	float: left;
+}
+
+.gamebox {
+	margin-top: 42px;
+	float: left;
+	width: 331px;
+	height: 327px;
+	padding: 0 12px;
+	border: 1px solid #CAD6E1;
+	border-radius: 10px;
+	text-align: center;
+	background: #F7F7F7;
+	margin: 0 13px 30px;
+	position: relative;
+}
+
+.gamebox:hover {
+	background: #FFFFFF;
+}
+
+.gamebox .name {
+	margin: 22px 0;
+}
+
+.gamebox .name a {
+	font-size: 15px;
+}
+
+.gamebox .name a:hover {
+	color: #38B772;
+}
+
+.gamebox .name span:first-child {
+	margin-left: 5px;
+	color: #38B774;
+	font-size: 12px;
+}
+
+.gamebox .name .arrow {
+	display: inline-block;
+	width: 4px;
+	height: 8px;
+	background-repeat: no-repeat;
+	background: url(../img/01-homepage/arrow.png);
+	margin-left: 5px;
+}
+
+div.loadbox div.loadboxplus {
+	padding-left: 0px;
+	width: 82px;
+	height: 82px;
+	background: #fcfcfc;
+	position: absolute;
+	top: -105px;
+	left: -10px;
+	border-radius: 10%;
+	display: none;
+	box-shadow: 0 4px 2px #c7d6e5;
+}
+
+div.loadboxplus div.code {
+	padding-left: 0px;
+	width: 74px;
+	height: 74px;
+	background: #fcfcfc;
+	background-image: url("../img/02-game/code.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	top: 5px;
+	left: 5px;
+}
+
+div.loadboxplus div.smallbox {
+	padding-left: 0px;
+	width: 10px;
+	height: 10px;
+	transform: rotate(45deg);
+	position: absolute;
+	bottom: -5px;
+	left: 36px;
+	background: #fcfcfc;
+}
+
+.gamebox .bottombox {
+	height: 29px;
+	margin-top: 10px;
+}
+
+.gamebox .bottombox span {
+	width: 29px;
+	height: 29px;
+	display: inline-block;
+	background: url(../img/01-homepage/icons.png);
+	position: absolute;
+	top: 0;
+	left: 20px;
+}
+
+.gamebox .bottombox .storebox span {
+	background-position: -444px -177px;
+}
+
+.gamebox .bottombox .loadbox span {
+	background-position: -442px -250px;
+}
+
+.gamebox .bottombox div {
+	width: 120px;
+	height: 29px;
+	line-height: 29px;
+	float: left;
+	position: relative;
+	padding-left: 45px;
+	cursor: pointer;
+}
+
+.gamebox .bottombox div:hover {
+	color: #38B772;
+}
+
+#iphone .gamebox .bottombox .storebox {
+	border-right: 1px solid #cad6e1;
+	position: relative;
+}
+
+
+/*right android*/
+
+#android .bottombox .storebox span {
+	width: 42px;
+	height: 42px;
+	background: url(../img/02-game/tadejingling.png);
+	background-position: 0px -97px;
+	transform: scale(0.7);
+	transform-origin: 0 0;
+}
+
+
+/*right ipad*/
+
+
+/*right pc*/
+
+#pc div.bottombox .storebox {
+	width: 80px
+}
+
+#pc div.bottombox .showbox span {
+	position: static;
+}
+
+#pc div.bottombox .showbox {
+	padding-left: 0;
+	width: 100px;
+}
+
+#pc span.face {
+	background: url('../img/02-game/online.png');
+	background-position: 1px -49px;
+	background-size: 890%;
+}
+
+#pc span.kaixin {
+	background: url('../img/02-game/online.png');
+	background-position: -54px -49px;
+	background-size: 890%;
+}
+
+#pc span.weibo {
+	background: url('../img/02-game/online.png');
+	background-position: -110px -49px;
+	background-size: 890%;
+}
+
+
+/*right tv*/
+
+#tv div.bottombox .storebox {
+	padding-left: 100px;
+	width: 100px;
+}
+
+#tv div.bottombox .loadbox {
+	height: 28px;
+	width: 28px;
+	padding-left: 0px;
+	background: url('../img/02-game/download.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+footer {
+	margin-top: 40px;
+}
+
+.gamebox:hover .mb {
+	width: 331px;
+	height: 195px;
+	background: #FFFFFF;
+	opacity: 0.3;
+	position: absolute;
+	top: 65px;
+	cursor: pointer;
+}

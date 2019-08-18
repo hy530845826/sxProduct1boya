@@ -1,0 +1,296 @@
+img {
+	display: block;
+}
+
+#bigPic {
+	background: url(../img/04-aboutUs/aboutbanner.jpg);
+	height: 254px;
+	overflow: hidden;
+}
+
+#box1000 {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.titleName span {
+	background: url(../img/04-aboutUs/location.png) 0 -48px;
+}
+
+#c-box {
+	width: 1000px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+aside {
+	width: 237px;
+	float: left;
+}
+
+aside li {
+	cursor: pointer;
+	width: 237px;
+	height: 55px;
+	border-bottom: 1px solid #C7D6E5;
+	padding-top: 14px;
+}
+
+aside .listName {
+	font-size: 16px;
+	font-weight: bold;
+	position: relative;
+}
+
+aside .listName span {
+	position: absolute;
+	right: 0;
+	top: 8px;
+	display: inline-block;
+	width: 4px;
+	height: 8px;
+	background: url(../img/01-homepage/arrow2.png);
+}
+
+aside ul li:hover,
+aside ul .checked {
+	color: #38B772;
+}
+
+aside ul li:hover span,
+aside ul .checked span {
+	background: url(../img/01-homepage/arrow.png);
+}
+
+aside .listPinyin {
+	font-size: 10px;
+}
+
+footer {
+	margin-top: 30px;
+}
+
+article {
+	margin-left: 48px;
+	width: 715px;
+	float: left;
+}
+
+article p {
+	line-height: 36px;
+	font-size: 14px;
+	text-indent: 2em;
+	margin-bottom: 24px;
+}
+
+article.hidden {
+	display: none;
+}
+
+article .year:first-child {
+	margin-top: 0;
+}
+
+article .year {
+	font-size: 19px;
+	font-weight: bold;
+	list-style-type: disc;
+	margin-top: 20px;
+}
+
+article .important {
+	font-weight: bold;
+	color: #38B772;
+}
+
+article li {
+	line-height: 36px;
+	font-size: 14px;
+}
+
+article h2 {
+	font-size: 24px;
+	color: #444866;
+	margin-bottom: 12px;
+}
+
+article .articleBox.distribution h2 {
+	text-align: center;
+}
+
+article h4 {
+	font-weight: normal;
+	color: #D2D6E5;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+article .articleBox {
+	margin-bottom: 20px;
+	border-bottom: 1px solid #C7D6E5;
+}
+
+article .articleBox:last-child {
+	border-bottom: none;
+}
+
+article .zzslogo li {
+	float: left;
+	width: 127px;
+	height: 45px;
+	margin-right: 63px;
+	margin-bottom: 20px;
+}
+
+article .zzslogo li:nth-child(4),
+article .zzslogo li:nth-child(8) {
+	margin-right: 0;
+}
+
+article .articleBox.cluture {
+	padding: 30px 0 50px;
+	overflow: hidden;
+}
+
+article .articleBox.cluture:first-child {
+	padding-top: 0;
+}
+
+article .articleBox.cluture .article-L-img {
+	float: left;
+	width: 97px;
+	height: 97px;
+	background: url(../img/04-aboutUs/cul_icon.png);
+}
+
+article .articleBox.cluture .article-L-img.img2 {
+	background-position-y: -250px;
+}
+
+article .articleBox.cluture .article-L-img.img3 {
+	background-position-y: -500px;
+}
+
+article .articleBox.cluture .article-L-img.img4 {
+	background-position-y: -750px;
+}
+
+article .articleBox.cluture .article-R-content {
+	margin-left: 52px;
+	width: 560px;
+	float: left;
+}
+
+article .articleBox.cluture .article-R-content span {
+	font-size: 18px;
+}
+
+article .articleBox .title1 {
+	color: #F39800;
+}
+
+article .articleBox .title2 {
+	color: #39B775;
+}
+
+article .articleBox .title3 {
+	color: #6672CA;
+}
+
+article .articleBox .title4 {
+	color: #DA6D55;
+}
+
+article .articleBox p {
+	text-indent: initial;
+	margin-bottom: 0;
+	line-height: 28px;
+	font-size: 14px;
+}
+
+article .articleBox.contact .articleBox-title span {
+	margin-left: 5px;
+	font-weight: normal;
+	font-size: 18px;
+	color: #C7D6E5;
+}
+
+article .articleBox.contact {
+	padding: 15px 0 25px;
+	overflow: hidden;
+}
+
+article .articleBox.contact:first-child {
+	padding-top: 0;
+}
+
+article .articleBox.contact .article-L-content {
+	float: left;
+	width: 515px;
+}
+
+article .articleBox.contact .companybox {
+	width: 515px;
+	overflow: hidden;
+}
+
+article .articleBox.contact .companybox:first-child {
+	margin-bottom: 20px;
+}
+
+article .articleBox.contact .companyimg {
+	width: 76px;
+	margin-top: 10px;
+	margin-right: 24px;
+	float: left;
+	font-size: 14px;
+	line-height: 25px;
+	text-align: center;
+}
+
+article .articleBox.contact .companyimg img {
+	position: relative;
+	left: 20px;
+}
+
+article .articleBox.contact .companyadd {
+	width: 415px;
+	float: left;
+}
+
+article .articleBox.contact .article-R-content {
+	margin-left: 24px;
+	width: 176px;
+	float: left;
+	text-align: center;
+	font-size: 14px;
+	color: #6E4866;
+	line-height: 25px;
+}
+
+article .articleBox.contact ul {
+	overflow: hidden;
+}
+
+article .articleBox.contact li {
+	float: left;
+	margin-left: 50px;
+	width: 300px;
+}
+
+article .articleBox.contact li span {
+	display: inline-block;
+	height: 13px;
+	background: url(../img/04-aboutUs/icon.png);
+	margin-right: 5px;
+}
+
+article .articleBox.contact li .span-tel {
+	width: 9px;
+	background-position-y: -200px;
+}
+
+article .articleBox.contact li .span-mail {
+	width: 14px;
+	background-position-y: -248px;
+}

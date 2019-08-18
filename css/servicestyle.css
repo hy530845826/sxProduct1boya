@@ -1,0 +1,200 @@
+.slider img {
+	width: 100%;
+}
+
+.service-content {
+	width: 1001px;
+	margin: 0 auto;
+	font-family: "Microsoft YaHei";
+}
+
+.titleName span {
+	background: url(../img/04-aboutUs/location.png) 0 -192px;
+}
+
+.service-content .methods {
+	margin: 30px 0 45px 0;
+	overflow: hidden;
+}
+
+.methods .method {
+	height: 125px;
+	width: 323px;
+	background: #F1F1F1;
+	border-radius: 3%;
+	float: left;
+	text-align: center;
+	padding-top: 25px;
+}
+
+.methods .method .methodimg {
+	margin: 0 auto;
+	width: 59px;
+	height: 37px;
+}
+
+.methods .method .telephone .methodimg {
+	background: url(../img/06-service/telephone.png) no-repeat 11.5px 0px;
+}
+
+.methods .method .mail .methodimg {
+	background: url(../img/06-service/mail.png) no-repeat 10.5px 5.5px;
+}
+
+.methods .method .online .methodimg {
+	background: url(../img/06-service/online.png) no-repeat 0px 3px;
+}
+
+.methods .method .name {
+	font-size: 14px;
+	margin: 12px 0 4px;
+}
+
+.methods .method .details {
+	font-size: 22px;
+}
+
+.method .online .details a img {
+	position: relative;
+	top: 4px;
+}
+
+.method .mail a:hover {
+	text-decoration: underline;
+}
+
+.methods .method:nth-child(2) {
+	margin: 0 16px;
+}
+
+.service-content h3 {
+	font-size: 15px;
+	font-weight: normal;
+}
+
+.service-content .game {
+	margin: 28px 0 50px 0;
+	overflow: hidden;
+}
+
+.service-content .game a h4 {
+	font-size: 14px;
+	font-family: "Microsoft YaHei";
+	font-weight: normal;
+	color: #444866;
+	padding-top: 12px;
+}
+
+.game .list3,
+.game .list1 {
+	height: 118px;
+	width: 87px;
+	border: 1px solid #DBE1E7;
+	border-bottom: none;
+	padding: 45px 81px 25px 81px;
+	text-align: center;
+	float: left;
+}
+
+.game .list3 {
+	border-left: none;
+}
+
+.game .list2 {
+	height: 119px;
+	width: 105px;
+	border: 1px solid #DBE1E7;
+	border-bottom: none;
+	border-left: none;
+	padding: 44px 72px 25px 72px;
+	text-align: center;
+	float: left;
+}
+
+.game .list4 {
+	height: 118px;
+	width: 88px;
+	border: 1px solid #DBE1E7;
+	border-bottom: none;
+	border-left: none;
+	padding: 45px 81px 25px 80px;
+	text-align: center;
+	float: left;
+}
+
+.game .list1:hover,
+.game .list2:hover,
+.game .list3:hover,
+.game .list4:hover {
+	background: #F1F1F1;
+	cursor: pointer;
+}
+
+.game .list1:hover h4,
+.game .list2:hover h4,
+.game .list3:hover h4,
+.game .list4:hover h4 {
+	font-weight: bold;
+}
+
+#faq {
+	display: none;
+}
+
+.hidden {
+	display: none;
+}
+
+.faq {
+	width: 1001px;
+	margin: 0 auto;
+	font-family: "Microsoft YaHei";
+	margin-bottom: 400px;
+}
+
+#faq .faq_title {
+	height: 100px;
+	border-bottom: 1px solid #C7D6E5;
+	overflow: hidden;
+	margin: 10px 0 20px 0;
+	padding-bottom: 30px;
+}
+
+#faq .faq_title .titleName div {
+	display: inline;
+	margin-left: 5px;
+	position: relative;
+	top: -25px;
+}
+
+#faq .faq_Menu {
+	margin-bottom: 30px;
+}
+
+#faq .faq_Menu ul {
+	overflow: hidden;
+}
+
+#faq .faq_Menu ul a {
+	background: #DBE1E7;
+	font-size: 15px;
+	color: #444866;
+	padding: 10px 20px;
+	margin-right: 20px;
+	float: left;
+}
+
+#faq .faq_Menu ul a:hover {
+	color: #FFFFFF;
+	background: #38B774;
+}
+
+#faq .faq_Menu ul a.active {
+	color: #FFFFFF;
+	background: #38B774;
+}
+
+#faq .faq_content p {
+	font-size: 14px;
+	line-height: 25px;
+}
